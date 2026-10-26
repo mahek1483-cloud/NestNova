@@ -4,7 +4,6 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "prebuild": "powershell -NoProfile -Command \"if (Test-Path .next) { Start-Sleep -Milliseconds 400; Remove-Item -Recurse -Force .next -ErrorAction SilentlyContinue }\"",
     "build": "next build",
     "start": "next start",
     "lint": "eslint .",
